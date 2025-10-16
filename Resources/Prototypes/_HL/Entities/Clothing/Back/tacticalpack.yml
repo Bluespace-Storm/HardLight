@@ -27,7 +27,7 @@
   description: Large pack for all your exploration gear and supplies
   components:
   - type: Sprite
-    sprite: _HL/Clothing/Back/Specific/explorerpack.rsi
+    sprite: _HL/Clothing/Back/explorerpack.rsi
   - type: ExplosionResistance
     damageCoefficient: 0.6
   - type:
@@ -48,7 +48,7 @@
   description: Large sack to haul your heavy burdens
   components:
   - type: Sprite
-    sprite: _HL/Clothing/Back/Specific/rucksack.rsi
+    sprite: _HL/Clothing/Back/rucksack.rsi
   - type: ExplosionResistance
     damageCoefficient: 0.4
   - type: Storage
