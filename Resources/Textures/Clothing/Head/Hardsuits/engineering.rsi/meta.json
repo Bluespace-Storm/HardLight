@@ -60,7 +60,23 @@
             "directions": 4
         },
         {
+            "name": "equipped-head-light-feroxi",
+            "directions": 4
+        },
+        {
             "name": "equipped-head-unshaded-feroxi",
+            "directions": 4
+        },
+        {
+            "name": "equipped-head-vulpkanin.png",
+            "directions": 4
+        },
+        {
+            "name": "equipped-head-vulpkanin.png",
+            "directions": 4
+        },
+        {
+            "name": "equipped-head-unshaded-vulpkanin",
             "directions": 4
         }
     ]

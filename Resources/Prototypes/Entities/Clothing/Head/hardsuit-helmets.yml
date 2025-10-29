@@ -126,6 +126,9 @@
       head-vulpkanin:
       - state: equipped-head-light-vulpkanin
         shader: unshaded
+      head-feroxi:
+      - state: equipped-head-light-feroxi
+        shader: unshaded
   - type: Clothing
     clothingVisuals:
       head:
