@@ -90,6 +90,14 @@ public sealed partial class StrapComponent : Component
     /// </summary>
     [DataField]
     public float BuckleDoafterTime = 2f;
+
+    // Hardlight
+    /// <summary>
+    /// How long it takes to buckle yourself to this chair
+    /// </summary>
+    [DataField]
+    public float BuckleSelfDoafterTime = 0f;
+    // Hardlight End
 }
 
 public enum StrapPosition

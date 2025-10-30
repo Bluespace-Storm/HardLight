@@ -39,7 +39,20 @@ public abstract partial class SharedBuckleSystem
             if (!TryComp(args.User, out BuckleComponent? buckle))
                 return;
 
-            args.Handled = TryBuckle(args.User, args.User, uid, buckle);
+            // Hardlight start, self buckle doafter
+            var doAfterArgs = new DoAfterArgs(EntityManager, args.User, component.BuckleSelfDoafterTime, new BuckleDoAfterEvent(), args.Dragged, args.Dragged, uid)
+            {
+                BreakOnMove = true,
+                BreakOnDamage = true,
+                AttemptFrequency = AttemptFrequency.EveryTick
+            };
+
+            var popupString = Loc.GetString("hardlight-buckle-strap-attempt-user", ("target", args.Dragged));
+            _popup.PopupClient(popupString, uid, uid, Popups.PopupType.MediumCaution);
+
+            _doAfter.TryStartDoAfter(doAfterArgs);
+            // Hardlight end
+            // args.Handled = TryBuckle(args.User, args.User, uid, buckle);
         }
         else
         {
