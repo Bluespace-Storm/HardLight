@@ -114,6 +114,9 @@
   - ClothingBackpackDuffelHolding
   - ClothingBackpackMessengerHolding
   - FlashlightSecliteNF
+  - ClothingBackpackTactical #HL
+  - ClothingBackpackExplorer #HL
+  - ClothingRucksack #HL
 ## Weapons
   - Truncheon
   - MacheteNF
