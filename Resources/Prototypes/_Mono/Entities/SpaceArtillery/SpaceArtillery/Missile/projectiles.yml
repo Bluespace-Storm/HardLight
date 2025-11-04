@@ -47,6 +47,7 @@
     totalIntensity: 75
     intensitySlope: 8
     maxIntensity: 25
+    maxTileBreak: 0
   - type: GatheringProjectile
   - type: MiningGatheringSoft
   - type: MiningGatheringHard
@@ -96,6 +97,7 @@
     totalIntensity: 150
     intensitySlope: 10
     maxIntensity: 55
+    maxTileBreak: 0
   - type: GatheringProjectile
   - type: MiningGatheringSoft
   - type: MiningGatheringHard
@@ -145,6 +147,7 @@
     maxIntensity: 6000
     intensitySlope: 30
     totalIntensity: 6000
+    maxTileBreak: 0
   - type: GatheringProjectile
   - type: MiningGatheringSoft
   - type: MiningGatheringHard
@@ -198,7 +201,7 @@
     totalIntensity: 100
     intensitySlope: 10
     maxIntensity: 50
-    maxTileBreak: 1
+    maxTileBreak: 0
   - type: GatheringProjectile
   - type: MiningGatheringSoft
   - type: MiningGatheringHard
@@ -248,6 +251,7 @@
     maxIntensity: 4500
     intensitySlope: 20
     totalIntensity: 4500
+    maxTileBreak: 0
   - type: GatheringProjectile
   - type: MiningGatheringSoft
   - type: MiningGatheringHard

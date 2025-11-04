@@ -80,6 +80,7 @@
     maxIntensity: 2000
     intensitySlope: 30
     totalIntensity: 7000
+    maxTileBreak: 0
   - type: MiningGatheringSoft
   - type: MiningGatheringHard
   - type: TargetSeeking
@@ -180,6 +181,7 @@
     maxIntensity: 300
     intensitySlope: 90
     totalIntensity: 500
+    maxTileBreak: 0
   # destructible components below
   - type: Fixtures
     fixtures:
@@ -277,6 +279,7 @@
     maxIntensity: 300
     intensitySlope: 4
     totalIntensity: 1000
+    maxTileBreak: 0
   - type: MiningGatheringSoft
   - type: MiningGatheringHard
   - type: TargetSeeking

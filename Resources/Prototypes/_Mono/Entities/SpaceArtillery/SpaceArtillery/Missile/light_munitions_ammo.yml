@@ -40,6 +40,7 @@
     maxIntensity: 1500
     intensitySlope: 30
     totalIntensity: 4000
+    maxTileBreak: 0
   - type: MiningGatheringSoft
   - type: MiningGatheringHard
   # destructible components below
@@ -138,6 +139,7 @@
     maxIntensity: 1000
     intensitySlope: 10
     totalIntensity: 4000
+    maxTileBreak: 0
   - type: MiningGatheringSoft
   - type: MiningGatheringHard
   - type: TargetSeeking
@@ -242,6 +244,7 @@
     maxIntensity: 500
     intensitySlope: 10
     totalIntensity: 500
+    maxTileBreak: 0
   - type: MiningGatheringSoft
   - type: MiningGatheringHard
   - type: TargetSeeking

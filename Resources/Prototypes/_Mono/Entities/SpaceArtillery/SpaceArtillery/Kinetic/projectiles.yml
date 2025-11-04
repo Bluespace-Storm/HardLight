@@ -46,6 +46,7 @@
     totalIntensity: 2500
     intensitySlope: 50
     maxIntensity: 800
+    maxTileBreak: 0
   - type: GatheringProjectile
   - type: MiningGatheringSoft
   - type: MiningGatheringHard
@@ -112,7 +113,7 @@
     totalIntensity: 40
     intensitySlope: 5
     maxIntensity: 25
-    maxTileBreak: 1
+    maxTileBreak: 0
 
 # 90mm base removed; canonical versions live under SpaceArtillery/Ammo/90mm.yml
 
@@ -155,6 +156,7 @@
     totalIntensity: 400
     intensitySlope: 18
     maxIntensity: 1900
+    maxTileBreak: 0
   - type: GatheringProjectile
   - type: MiningGatheringSoft
   - type: MiningGatheringHard
@@ -195,6 +197,7 @@
     totalIntensity: 1300
     intensitySlope: 18
     maxIntensity: 1900
+    maxTileBreak: 0
   - type: GatheringProjectile
   - type: MiningGatheringSoft
   - type: MiningGatheringHard
@@ -235,6 +238,7 @@
     totalIntensity: 1000
     intensitySlope: 25
     maxIntensity: 75
+    maxTileBreak: 0
   - type: GatheringProjectile
   - type: MiningGatheringSoft
   - type: MiningGatheringHard
@@ -275,6 +279,7 @@
     totalIntensity: 750
     intensitySlope: 35
     maxIntensity: 50
+    maxTileBreak: 0
   - type: GatheringProjectile
   - type: MiningGatheringSoft
   - type: MiningGatheringHard
@@ -316,6 +321,7 @@
     totalIntensity: 1250
     intensitySlope: 5
     maxIntensity: 1450
+    maxTileBreak: 0
   - type: GatheringProjectile
   - type: MiningGatheringSoft
   - type: MiningGatheringHard
@@ -373,7 +379,7 @@
     totalIntensity: 40 # totalIntensity goes first, please.
     intensitySlope: 3
     maxIntensity: 8
-    maxTileBreak: 1
+    maxTileBreak: 0
   - type: PointLight
     color: orange
 
@@ -412,6 +418,7 @@
     totalIntensity: 1000
     intensitySlope: 18
     maxIntensity: 1750
+    maxTileBreak: 0
   - type: GatheringProjectile
   - type: MiningGatheringSoft
   - type: MiningGatheringHard

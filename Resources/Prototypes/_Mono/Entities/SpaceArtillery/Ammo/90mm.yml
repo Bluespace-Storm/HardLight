@@ -35,7 +35,7 @@
     maxIntensity: 30
     intensitySlope: 2
     totalIntensity: 4
-    maxTileBreak: 1
+    maxTileBreak: 0
   - type: PointLight
     color: orange
 

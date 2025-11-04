@@ -100,3 +100,4 @@
     totalIntensity: 200
     intensitySlope: 80
     maxIntensity: 1000
+    maxTileBreak: 0

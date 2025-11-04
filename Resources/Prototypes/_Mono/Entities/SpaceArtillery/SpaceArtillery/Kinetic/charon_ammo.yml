@@ -38,6 +38,7 @@
     totalIntensity: 7500
     intensitySlope: 100
     maxIntensity: 6000
+    maxTileBreak: 0
   - type: GatheringProjectile
   - type: MiningGatheringSoft
   - type: MiningGatheringHard
@@ -99,6 +100,7 @@
     totalIntensity: 25000
     intensitySlope: 100
     maxIntensity: 11000
+    maxTileBreak: 0
   - type: GatheringProjectile
   - type: MiningGatheringSoft
   - type: MiningGatheringHard

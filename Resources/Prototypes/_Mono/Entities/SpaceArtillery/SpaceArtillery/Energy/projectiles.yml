@@ -48,7 +48,7 @@
     totalIntensity: 250
     intensitySlope: 6
     maxIntensity: 25
-    maxTileBreak: 1
+    maxTileBreak: 0
 
 # Autopulser
 
@@ -88,7 +88,7 @@
     totalIntensity: 25
     intensitySlope: 2
     maxIntensity: 40
-    maxTileBreak: 1
+    maxTileBreak: 0
 
 # Type 241
 
@@ -128,7 +128,7 @@
     totalIntensity: 120
     intensitySlope: 9
     maxIntensity: 70
-    maxTileBreak: 5
+    maxTileBreak: 0
 
 # M25
 
@@ -234,7 +234,7 @@
     totalIntensity: 1250
     intensitySlope: 10
     maxIntensity: 55
-    maxTileBreak: 5
+    maxTileBreak: 0
   - type: GatheringProjectile
   - type: MiningGatheringSoft
   - type: MiningGatheringHard
@@ -276,6 +276,7 @@
     totalIntensity: 500
     intensitySlope: 35
     maxIntensity: 50
+    maxTileBreak: 0
 
 # Harbringer
 
@@ -476,7 +477,7 @@
     totalIntensity: 120
     intensitySlope: 50
     maxIntensity: 100
-    maxTileBreak: 2
+    maxTileBreak: 0
 
 - type: entity
   id: TachyonExplosion
@@ -489,6 +490,7 @@
     totalIntensity: 7000
     intensitySlope: 100
     maxIntensity: 2400
+    maxTileBreak: 0
 
 - type: entity
   id: SunderExplosion
@@ -501,3 +503,4 @@
     totalIntensity: 22
     intensitySlope: 2
     maxIntensity: 5
+    maxTileBreak: 0
