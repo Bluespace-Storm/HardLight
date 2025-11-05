@@ -25,6 +25,14 @@
 
 # Command
 - type: entity
+  id: HLLockerCaptain
+  parent: LockerCaptain
+  suffix: Station
+  components:
+  - type: AccessReader
+    access: [["StationCaptain"]]
+
+- type: entity
   id: HLLockerHeadOfPersonnel
   parent: LockerHeadOfPersonnel
   suffix: Station

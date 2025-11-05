@@ -103,28 +103,24 @@
 # No laser locker, used when the antique laser is placed in the special display crate
 - type: entity
   id: HLLockerCaptainFilledNoLaser
-  suffix: Filled, HL
-  parent: LockerStationCaptain
+  suffix: Station, Filled
+  parent: HLLockerCaptain
   components:
   - type: EntityTableContainerFill
     containers:
       entity_storage: !type:NestedSelector
         tableId: HLLockerFillCaptainNoLaser
-  - type: AccessReader
-    access: [ [ "StationCaptain" ] ]
 
 # Laser locker, used when the antique laser is not in a special display crate
 - type: entity
   id: HLLockerCaptainFilledLaser
-  suffix: Filled, Laser, HL
-  parent: LockerStationCaptain
+  suffix: Station, Filled, Laser
+  parent: HLLockerCaptain
   components:
   - type: EntityTableContainerFill
     containers:
       entity_storage: !type:NestedSelector
         tableId: HLLockerFillCaptainLaser
-  - type: AccessReader
-    access: [ [ "StationCaptain" ] ]
 
 - type: entityTable
   id: HLLockerFillHeadOfPersonnel
