@@ -102,8 +102,7 @@
     - ClothingOuterHardsuitSalvage
     - ClothingOuterHardsuitLuxury
     - ClothingOuterHardsuitMaximPrototype
-    - ClothingBackpackExplorer #HL
-
+    
 - type: latheRecipePack
   id: NFSalvageTechfabDeprecatedEmag
   recipes:
