@@ -31,7 +31,6 @@
   id: TSFHighComm
   form: Protagonist
   name: Winter Solstice
-  description: winter-solstice-description
   color: "#008CE3"
   disabled: true
   logins: # admins only here !!! or your PR will be CLOSED!!!! also serves as a example for ur whitelisted factions
@@ -51,29 +50,24 @@
   id: DarkMatterEnterprises
   form: Protagonist
   name: Dark Matter Enterprises
-  description: dark-matter-enterprises-description
   color: "#BF00B9"
-  image: /Textures/_Mono/Companies/dme.png #DME Logo
 
 - type: company
   id: AetherionDynamics
   form: Protagonist
   name: Aetherion Dynamics
-  description: aetherion-dynamics-description
   color: "#7E72B2"
 
 - type: company
   id: SouthernPeakMercenaries
   form: Protagonist
   name: The Southern Peaks
-  description: southern-peak-mercenaries-description
   color: "#020624"
 
 - type: company
   id: ZealotsOfBalaam
   form: Protagonist
   name: Zealots Of Balaam
-  description: zealots-of-balaam-description
   color: "#BC7F58"
 
 # ====Rogue / Antag. Companies====
@@ -81,9 +75,7 @@
   id: TheViperGroup
   form: Antagonist
   name: The Viper Group
-  description: viper-group-description
   color: "#D82918"
-  image: /Textures/_Mono/Companies/thevipergroup.png # Example
   logins:
   - Schizm1253
   - Archylle

@@ -81,3 +81,65 @@
   components:
   - type: PirateBountyItem
     id: PMCGun
+
+# Additional PMC Ballistic / Energy Variants
+
+- type: entity # Enforcer
+  parent:
+  - WeaponShotgunEnforcer
+  name: PMC Enforcer (12 gauge)
+  id: WeaponShotgunEnforcerPMC
+  description: An Enforcer that has been properly registered for private security and mercenary use.
+  components:
+  - type: PirateBountyItem
+    id: PMCGun
+
+- type: entity # Laser Carbine
+  parent:
+  - WeaponLaserCarbine
+  name: PMC Laser Carbine
+  id: WeaponLaserCarbinePMC
+  description: A laser carbine that has been properly registered for private security and mercenary use.
+  components:
+  - type: PirateBountyItem
+    id: PMCGun
+
+- type: entity # Laser Cannon
+  parent:
+  - WeaponLaserCannon
+  name: PMC Laser Cannon
+  id: WeaponLaserCannonPMC
+  description: A laser cannon that has been properly registered for private security and mercenary use.
+  components:
+  - type: PirateBountyItem
+    id: PMCGun
+
+- type: entity # Energy Gun
+  parent:
+  - WeaponEnergyGun
+  name: PMC Energy Gun
+  id: WeaponEnergyGunPMC
+  description: An energy gun that has been properly registered for private security and mercenary use.
+  components:
+  - type: PirateBountyItem
+    id: PMCGun
+
+- type: entity # Disabler SMG
+  parent:
+  - WeaponDisablerSMG
+  name: PMC Disabler SMG
+  id: WeaponDisablerSMGPMC
+  description: A disabler SMG that has been properly registered for private security and mercenary use.
+  components:
+  - type: PirateBountyItem
+    id: PMCGun
+
+- type: entity # Vulcan CFCM Variant
+  parent:
+  - WeaponRifleVulcan
+  name: CFCM Vulcan (762x51mm)
+  id: WeaponRifleVulcanCFCM
+  description: A Vulcan configured for CFCM issue and registration.
+  components:
+  - type: PirateBountyItem
+    id: CFCMLongarm

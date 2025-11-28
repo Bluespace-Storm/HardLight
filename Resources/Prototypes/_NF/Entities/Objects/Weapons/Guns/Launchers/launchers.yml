@@ -94,3 +94,9 @@
     price: 50
   - type: NFWeaponDetails
     manufacturer: weapon-details-manufacturer-nanotrasen-munitions
+
+- type: entity
+  name: NFSD grenade launcher
+  parent: WeaponLauncherNfsdLake
+  id: NFWeaponLauncherGrenadeNfsd
+  description: A standardized grenade launcher issued to NFSD personnel.
