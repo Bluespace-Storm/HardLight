@@ -87,6 +87,177 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadEVAHelmetHydro
 
+# Valet / Service Variant
+- type: entity
+  parent: NFClothingOuterEVASuitBase
+  id: ClothingOuterEVASuitValet
+  name: valet EVA suit
+  description: A neatly kept EVA suit issued to valets for exterior station assistance.
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/OuterClothing/Suits/eva_color.rsi
+    layers:
+    - state: icon-base
+      color: "#d8cfae"
+    - state: icon-decals-01
+      color: "#ffffff"
+    - state: icon-reinforced-points
+      color: "#6b4600"
+    - state: icon-breathing-gear
+    - state: icon-unshaded
+      shader: unshaded
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left-base
+        color: "#d8cfae"
+      - state: inhand-left-decals-01
+        color: "#ffffff"
+      - state: inhand-left-reinforced-points
+        color: "#6b4600"
+      - state: inhand-left-breathing-gear
+      - state: inhand-left-unshaded
+        shader: unshaded
+      right:
+      - state: inhand-right-base
+        color: "#d8cfae"
+      - state: inhand-right-decals-01
+        color: "#ffffff"
+      - state: inhand-right-reinforced-points
+        color: "#6b4600"
+      - state: inhand-right-breathing-gear
+      - state: inhand-right-unshaded
+        shader: unshaded
+  - type: Clothing
+    sprite: _NF/Clothing/OuterClothing/Suits/eva_color.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: equipped-base
+        color: "#d8cfae"
+      - state: equipped-decals-01
+        color: "#ffffff"
+      - state: equipped-reinforced-points
+        color: "#6b4600"
+      - state: equipped-breathing-gear
+      - state: equipped-unshaded
+        shader: unshaded
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadEVAHelmetServiceWorker
+
+# Prisoner Variant
+- type: entity
+  parent: NFClothingOuterEVASuitBase
+  id: ClothingOuterEVASuitPrisoner
+  name: prisoner EVA suit
+  description: A stripped down EVA suit for prisoner labor details. Comfort not included.
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/OuterClothing/Suits/eva_color.rsi
+    layers:
+    - state: icon-base
+      color: "#c15f00"
+    - state: icon-decals-01
+      color: "#222222"
+    - state: icon-reinforced-points
+      color: "#5a2f00"
+    - state: icon-breathing-gear
+    - state: icon-unshaded
+      shader: unshaded
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left-base
+        color: "#c15f00"
+      - state: inhand-left-decals-01
+        color: "#222222"
+      - state: inhand-left-reinforced-points
+        color: "#5a2f00"
+      - state: inhand-left-breathing-gear
+      - state: inhand-left-unshaded
+        shader: unshaded
+      right:
+      - state: inhand-right-base
+        color: "#c15f00"
+      - state: inhand-right-decals-01
+        color: "#222222"
+      - state: inhand-right-reinforced-points
+        color: "#5a2f00"
+      - state: inhand-right-breathing-gear
+      - state: inhand-right-unshaded
+        shader: unshaded
+  - type: Clothing
+    sprite: _NF/Clothing/OuterClothing/Suits/eva_color.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: equipped-base
+        color: "#c15f00"
+      - state: equipped-decals-01
+        color: "#222222"
+      - state: equipped-reinforced-points
+        color: "#5a2f00"
+      - state: equipped-breathing-gear
+      - state: equipped-unshaded
+        shader: unshaded
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadEVAHelmetPrisoner
+
+# Pirate Variant
+- type: entity
+  parent: NFClothingOuterEVASuitBase
+  id: ClothingOuterEVASuitPirate
+  name: pirate EVA suit
+  description: A rugged EVA suit tailored for long voyages and space raids.
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/OuterClothing/Suits/eva_color.rsi
+    layers:
+    - state: icon-base
+      color: "#7d0f1b"
+    - state: icon-decals-01
+      color: "#c9b36f"
+    - state: icon-reinforced-points
+      color: "#3b0a10"
+    - state: icon-breathing-gear
+    - state: icon-unshaded
+      shader: unshaded
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left-base
+        color: "#7d0f1b"
+      - state: inhand-left-decals-01
+        color: "#c9b36f"
+      - state: inhand-left-reinforced-points
+        color: "#3b0a10"
+      - state: inhand-left-breathing-gear
+      - state: inhand-left-unshaded
+        shader: unshaded
+      right:
+      - state: inhand-right-base
+        color: "#7d0f1b"
+      - state: inhand-right-decals-01
+        color: "#c9b36f"
+      - state: inhand-right-reinforced-points
+        color: "#3b0a10"
+      - state: inhand-right-breathing-gear
+      - state: inhand-right-unshaded
+        shader: unshaded
+  - type: Clothing
+    sprite: _NF/Clothing/OuterClothing/Suits/eva_color.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: equipped-base
+        color: "#7d0f1b"
+      - state: equipped-decals-01
+        color: "#c9b36f"
+      - state: equipped-reinforced-points
+        color: "#3b0a10"
+      - state: equipped-breathing-gear
+      - state: equipped-unshaded
+        shader: unshaded
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadEVAHelmetPirate
+
 - type: entity
   parent: NFClothingOuterEVASuitBase
   id: ClothingOuterEVASuitMailman
